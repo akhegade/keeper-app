@@ -6,7 +6,7 @@ import notes from "../note";
 import CreateArea from "./CreateArea";
 function App() {
   const [notes, setNotes] = useState([]);
-
+  
   function addNote(note) {
     setNotes(prevState => {
       // let uniId = prevState.length + 1;
